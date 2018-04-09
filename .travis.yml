@@ -24,6 +24,7 @@ deploy:
   api_key:
     secure: KaI4ME9ez0aBeEqwAtyQELXNjCLgJByZ+aqpPmmEFJr9WjJKCxhpYyK14BB1+uVaQxJqCtnuQgH7vNOyhm3KE5xrEtCjzavJGm3rtExNA9s8shH2k4WMhBp/7MPfoc7ffea2QqQ4lDjsDycpZbjihD+U6HtHfQVZ6avRfgXkLoOx59jZhNEDxRVQZBbygTw+J5u1MQTWMdpgvqHmltGyU71FIHk963Mgl6By42NP9XEXYHE9Ynh43wufp26g3c0T2RiO7M/cCJi5H9hhjEdcS0NpkMW44+Vt2IyI4zff70O03o3fiv4tfR6evCPi3St/V8tg/ohe74/+EC98C3dkWwmvBJwaiozsQrI6FvKTFKq/rpDbYiPZQFCynRAH/ysS251pdZh3tKOcZDC5WNGsfnNszX9NVtNCZD9QtcsMWCSaGfEunVjHh/l3gLbcuO3zT+r5NrbIVMk7XCagHSSqK8JpLmIUxOoGhv8QyR8RNc87Xr4g11hWfbqe+lthYaCxhrybZE7HxtNJ8AZLsVl8jeVOLSwKYkIrfktP9jlgY7IHn9y7kxr9DK56Lcioh8wAATi3GB9Sgyo/5gMylTDopqsa3DF71cqOZDuiJpGDzhg0RJqinvbPFyaWhhXal4PKnVvnuAFZ0vf+jfk/NNiH0RNrrlzpc1qD0h5+AEQZv1g=
   file: devoxx2018-pwa.tar.gz
+  skip_cleanup: true
   on:
     tags: true
     repo: CottinThomas/Projet-Web
